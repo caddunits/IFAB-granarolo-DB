@@ -1,8 +1,8 @@
 import sys
 import os
 import importlib
-from create_db import connect_database
-from tables_list import commands
+from script.create_db import connect_database
+from script.tables_list import commands
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
